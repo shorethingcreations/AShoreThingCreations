@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dubai Cookies & Chocolate</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #111;
+      color: #fff;
+    }
+
+    header {
+      background: linear-gradient(to right, #5a3e1b, #c89b3c);
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      background: url('hero.jpg') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      background: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .products {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .products h2 {
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #222;
+      border-radius: 10px;
+      width: 250px;
+      padding: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .price {
+      font-size: 1.5rem;
+      margin: 10px 0;
+      color: #f5c542;
+    }
+
+    .gallery {
+      padding: 50px 20px;
+      background: #181818;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      margin-bottom: 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  Dubai Cookies & Chocolate
+</header>
+
+<section class="hero">
+  <h1>Luxury Taste from Dubai</h1>
+</section>
+
+<section class="products">
+  <h2>Our Products</h2>
+
+  <div class="product-grid">
+    <div class="card">
+      <img src="cookies.jpg" alt="Cookies">
+      <div class="price">$4</div>
+      <p>Fresh Chocolate Cookies</p>
+    </div>
+
+    <div class="card">
+      <img src="chocolate.jpg" alt="Chocolate">
+      <div class="price">$10</div>
+      <p>Premium Chocolate Bars</p>
+    </div>
+  </div>
+</section>
+
+<section class="gallery">
+  <h2>Behind The Scenes</h2>
+
+  <img src="choco1.jpg" alt="Chocolate prep">
+  <img src="choco2.jpg" alt="Chocolate bars">
+  <img src="prep.jpg" alt="Cooking process">
+</section>
+
+<footer>
+  © 2026 Dubai Cookies & Chocolate | All Rights Reserved
+</footer>
+
+</body>
+</html>
